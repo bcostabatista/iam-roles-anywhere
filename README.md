@@ -50,15 +50,6 @@ Replace the placeholders (`your-profile-id`, `your-role-name`, and `your-trust-a
 - Rotate the private key and certificate regularly for security.
 - Ensure AWS Secrets Manager is secured with appropriate permissions.
 
-## Example Usage
-```hcl
-module "iam_roles_anywhere" {
-  source = "path-to-your-module"
-
-  # Add necessary variables here
-}
-```
-
 ## Requirements
 
 | Name | Version |
